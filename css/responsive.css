@@ -1,0 +1,986 @@
+@media screen and (max-width: 1440px), screen and (max-device-width: 1440px) {
+
+	.tt {
+		font-size: 0.5em;
+	}
+
+}
+
+@media screen and (max-width: 1200px), screen and (max-device-width: 1200px) {
+	ul.nav-labels.hide {
+		display: none !important;
+		visibility: hidden !important;
+	}
+
+	.dc18-logo {
+		width: 100%;
+		height:auto;
+		padding: 0 0 1em;
+	}
+
+}
+
+@media screen and (max-width: 1080px), screen and (max-device-width: 1080px) {
+
+	.desktop {
+		display: none !important;
+		width: 0;
+		height: 0;
+		border: none;
+	}
+
+	.tablet {
+		display: block !important;
+		width: inherit !important;
+		height: inherit !important;
+	}
+
+.thankyou {
+ 	height: 10em;
+ 	width: auto;
+ 	padding: 0 1em 0.1em;
+}
+
+.thankyou-croatia {
+	height: 3em;
+	width: auto;
+	display: block;
+	margin-bottom: 2.5em;
+}
+
+
+	/*------------------------------
+TICKET BUTTONS
+------------------------------*/
+.ticket-button {
+	width: 48%;
+	float: left;
+	margin: 10px 1%;
+	padding: 0 0;
+}
+	
+.ticket-button-title {
+	min-height: 45px;
+}
+	
+.ticket-button-desc {
+	min-height: 50px;
+}
+	
+}
+
+@media screen and (max-width: 960px), screen and (max-device-width: 960px) {
+
+	.desktop {
+		display: none;
+	}
+
+	.tablet {
+		display: block;
+	}
+
+	.thankyou {
+	 	height: 14em;
+	 	width: auto;
+	 	padding: 0 1em 1em;
+	}
+
+	.thankyou-croatia {
+		height: 3em;
+		width: auto;
+		display: block;
+	}	
+
+	.hauto {
+		height: auto;
+	}
+		
+	h1 {
+		font-size: 30px;
+		line-height: 26px;
+	}
+
+	h2 {
+		font-size: 15px;
+	}
+	h4 {
+		font-size: 30px;
+		line-height: 23px;
+	}
+
+	#fixed-logo {
+	  width: 100%;
+	  height: 30px;
+	  background: url(../images/tt-single-2017.png) center left no-repeat;
+	  background-size: 65%;
+	}
+
+	#fixed-logo.fixed {
+		left: 30px;
+		}
+
+	ul.nav-labels { display: none !important; }
+	button.accordion { padding: 0 0 10px 0; }
+
+	.eventbrite {
+		height: 840px;
+	}
+
+
+		/*------------------------------
+	LINEUP
+	------------------------------*/
+	ul.lineup li.lul {
+		font-size:18px;
+		line-height:24px;
+		display:block;
+	}
+	ul.lineup li.lu0 {
+		font-size:48px;
+	}
+	ul.lineup li.lu1 {
+		font-size:28px;
+	}
+	ul.lineup li.lu2 {
+		font-size:20px;
+	}
+	ul.lineup li.lu2 .sup {
+		font-size: 11px;
+	}
+	ul.lineup li.break {
+		font-size:1px;
+		line-height:1px;
+		height: 1px;
+		font-weight: lighter;
+		display:block;
+		clear:both;
+		margin: 0 0;
+	}
+	ul.lineup li.pbreak {
+		font-size:10px;
+		line-height:10px;
+		height: 15px;
+		font-weight: lighter;
+		display:block;
+		clear:both;
+		margin: 0 0;
+	}
+
+	/*------------------------------
+	TICKET BUTTONS
+	------------------------------*/
+	.ticket-button {
+		width: 48%;
+		float: left;
+		margin: 10px 1%;
+		padding: 0 0;
+	}
+}
+
+
+@media screen and (max-width: 740px), screen and (max-device-width: 740px) {
+	body {
+		background-image: none;
+	}
+
+	#tubular-container {
+		display: none !important;
+	}
+
+	.hide,
+	.desktop,
+	.tablet {
+		display: none !important;
+		width: 0;
+		height: 0;
+		border: none;
+	}
+
+	.mobonly { 
+		display: block !important;
+		width: inherit !important;
+		height: inherit !important;
+	}
+
+	#mob-tickets {
+		display: block;
+		top: auto;
+		left: 50%;
+		margin-right: 50%;
+		transform: translate(-50%, 0);
+		bottom: 20px;
+		z-index: 3;
+	}
+
+	.container2 {
+		z-index: 4;
+	}
+
+	/******* FIXED NAV TOP ******/
+	#fixed-navWrapper { /* required to avoid jumping */
+	  position: relative;
+	  width: 100%;
+	  height: 0px;
+	  top: 0px;
+	  display: block;
+	  z-index: 998;
+	}
+
+	#mob-logo {
+		position: relative;
+		top: -60px;
+		width: 100%;
+		height: 60px;
+		background: url(../images/tt-sml-2017.png) no-repeat #000 !important;
+		background-size: 60% auto !important;
+		background-position: 90% !important;
+		z-index: 0;
+	}
+
+	#mob-logo.fixed {
+		position: fixed;
+		top: 0px;
+		width: 100%;
+		height: 60px;
+		background: url(../images/tt-sml-2017.png) no-repeat #000 !important;
+		background-size: 60% auto !important;
+		background-position: 90% !important;
+		z-index: 999;
+	}
+
+	#mob-logo.fixed a {
+		display: block;
+	}
+
+	img.artistpic {
+		width: 70% !important;
+		height: 70% !important;
+		margin: 0 auto !important;
+		padding: 20px 0px;
+		border-radius: 100%;
+	}
+
+	.container1 { 
+		/*background: url(../images/g2.jpg) center center no-repeat;*/
+		background-size: cover;
+		background-color: #fc5567;
+	}
+
+	.innerbody {
+		width: auto;
+		height: auto;
+		position: relative;
+		top: 0;
+		margin: 0 auto;
+		padding: 30px 30px;
+	}
+
+	.innerhead {
+		position: fixed;
+		top: 0px;
+		max-width: 1070px;
+		width: 100%;
+		height: 60px;
+		margin: 0 auto;
+		padding: 0 0;
+		border-bottom: none;
+		border-color: #FFF;
+		display: block;
+		/*
+		background: url(../images/tt-sml-2017.png) no-repeat #000 !important;
+		background-size: 60% auto !important;
+		background-position: 90% !important;
+		*/
+	}
+
+	.website-enter {
+		top: 10px;
+	}
+
+
+	/*------------------------------
+	HEADER
+	------------------------------*/
+	#header {
+		position: fixed;
+		width: 100%;
+		height: auto;
+		margin: 0 auto;
+		padding: 0 0 ;
+		top: 0;
+		left: 0;
+		background: none;
+	}
+
+	.mob-nav-btn {
+		display: block;
+		position: fixed;
+		width: 30px;
+		height: 30px;
+		top: 15px;
+		left: 15px;
+		margin: 0 0;
+		padding: 0 0;
+		background: url(../images/mob-nav.png) center center no-repeat;
+		overflow: hidden;
+		z-index: 999;
+	}
+
+	.mob-nav-btn a {
+		display: block;
+		width: 30px;
+		height: 30px;
+	}
+
+	.social {
+		position: relative;
+		bottom: 0px;
+		left: 10px;
+		right: 0px;
+		margin: 0 0;
+		height: 50px;
+		width: auto;
+	}
+	ul.icons li {
+		height: 60px !important;
+	}
+
+	li.double {
+		width: 100px !important;
+	}
+
+	li.double a {
+		width: 100px !important;
+	}
+
+	ul.icons li a {
+	background-size: 350px !important;
+	height: 50px !important;
+	width: 50px !important;
+	}
+
+	.icons .facebook {
+		background-position:0 0;
+	}
+	.icons .facebook:hover {
+		background-position:0 -2px;
+	}
+
+	.icons .twitter {
+		background-position: -60px 0;
+	}
+	.icons .twitter:hover {
+		background-position: -60px -2px;
+	}
+
+	.icons .instagram {
+		background-position: -122px 0;
+	}
+	.icons .instagram:hover {
+		background-position: -122px -2px;
+	}
+
+	.icons .googleplus {
+		background-position: -184px 0;
+	}
+	.icons .googleplus:hover {
+		background-position: -184px -2px;
+	}
+
+	.icons .soundcloud {
+		background-position: -250px 0;
+		width: 100px !important;
+	}
+	.icons .soundcloud:hover {
+		background-position: -250px -2px;
+	}
+
+	.navigation-m {
+		width: auto;
+		position: absolute;
+		left: 30px;
+		top: 0px;
+		margin: 0 0;
+		padding: 0 0;
+		display: block;
+	}
+
+	ul.nav-m {
+		list-style: none;
+		width: auto;
+		margin: 0 0;
+		padding: 0 0;
+		text-align: left;
+		float: left;
+		display: block;
+	}
+
+	ul.nav-labels-m {
+		list-style: none;
+		width: auto;
+		margin: 0 0;
+		padding: 0 0;
+		text-align: left;
+		float: left;
+	}
+
+
+
+	/*------------------------------
+	SECTIONS
+	------------------------------*/
+	.homebody {
+		width: auto;
+		height: auto;
+		position: relative;
+		top: 30px;
+		margin: 0 auto;
+		float: none;
+	}
+
+	.contentbody {
+		width: auto;
+		height: 100%;
+		position: relative;
+		top: 30px;
+		margin: 0 auto;
+		padding: 0 0;
+		float: none;
+	}
+
+	.textfull {
+		width: 100%;
+		height: auto;
+		margin: 0 0;
+		padding: 24px 0px;
+		overflow: auto;
+		clear: both;
+	}
+
+	.texthalf {
+		width: 100%;
+		height: auto;
+		margin: 0 0;
+		padding: 24px 0px;
+		overflow: auto;
+		clear: both;
+	}
+
+	img.quotepic {
+	float: none;
+	}
+
+	.quotebody p {
+	padding-top: 0%;
+	text-align:center;
+	}
+
+
+	/*------------------------------
+	HOME PAGE
+	------------------------------*/
+
+	.tt {
+		width: 90%;
+		height: auto;
+		display: block;
+		padding: 6% 0 0 0;
+		margin: 0 auto 30px auto;
+		font-size: 0.3em;
+	}
+
+	#fixed-logo { display: none !important; }
+	#fixed-logo.fixed { display: none !important; }
+
+	h1 {
+		font-size: 40px;
+		line-height: 100%;
+	}
+
+	h2 {
+		font-size: 110%;
+		line-height: 100%;
+		padding: 0 0 5px 0;
+	}
+
+	h4 {
+		font-size: 125%;
+		line-height: 100%;
+		padding: 0 0 5px 0;
+	}
+
+	h5 {
+		width: 80% !important;
+	}
+
+	.artistinfo {
+		width: 70%;
+		height: auto;
+		text-align: center;
+		margin: 0 auto;
+		padding: 0px 0px;
+	}
+
+	/*------------------------------
+	SIGN-UP FORM
+	------------------------------*/
+	input {
+		display: block;
+		width: 80%;
+		height: auto;
+		margin-right: auto;
+		margin-left: auto;
+		margin-top: 0px;
+		margin-bottom: 10px;
+		padding: 10px 10px;
+		background: #FFF;
+		border: none;
+		color: #000;
+		font-size: 20px;
+		line-height: 20px;
+		font-family: 'Cabin', "Helvetica Neue", Helvetica, Arial, sans-serif;
+		text-align: center;
+	}
+
+	input.button {
+		display: block;
+		width: 85%;
+		height: 50px;
+		margin: 0 auto;
+		padding: 10px 10px;
+		background: #000;
+		color: #EEE;
+		border: none;
+		cursor: pointer;
+		font-size: 20px;
+		line-height: 20px;
+		font-family: 'ITCAvantGardeGothW04-Bo 1122872', "Helvetica Neue", Arial;
+		text-transform: uppercase;
+		-webkit-appearance: none;
+	}
+
+	/*------------------------------
+	LINEUP
+	------------------------------*/
+	ul.lineup li.lul {
+		font-size:18px;
+		line-height:24px;
+		display:block;
+	}
+	ul.lineup li.lu0 {
+		font-size:40px;
+		display:block;
+		clear:both;
+	}
+	ul.lineup li.lu0 .sup {
+		font-size: 20px;
+	}
+	ul.lineup li.lu1 {
+		font-size:26px;
+	}
+	ul.lineup li.lu2 {
+		font-size:18px;
+	}
+	ul.lineup li.lu2 .sup {
+		font-size: 11px;
+	}
+		
+	ul.lineup li.break {
+		font-size:1px;
+		line-height:1px;
+		height: 1px;
+		font-weight: lighter;
+		display:block;
+		clear:both;
+		margin: 0 0;
+	}
+	ul.lineup li.pbreak {
+		font-size:5px;
+		line-height:5px;
+		height: 8px;
+		font-weight: lighter;
+		display:block;
+		clear:both;
+		margin: 0 0;
+	}
+
+	/*------------------------------
+	TICKET BUTTONS
+	------------------------------*/
+	.ticket-button {
+		width: 48%;
+		float: left;
+		margin: 10px 1%;
+		padding: 0 0;
+	}
+	.text-halfsize {
+		font-family: inherit;
+		color: inherit;
+		font-size: 75%;
+		line-height: 110%;
+		display: inline;
+	}
+
+	.top-tickets {
+		width: 80%
+		}
+
+	.after-movie > .button {
+		height: 50px;
+		font-family: 'ITCAvantGardeGothW04-Bo 1122872', "Helvetica Neue", Arial;
+		font-size: 15px;
+		line-height: 20px;
+		padding: 10px 15px;
+		border: 0;
+		cursor: pointer;
+	}
+
+
+	/*------------------------------
+	PROGRAMME MODAL
+	------------------------------*/
+
+	.modal-content {
+		padding: 0;
+		width: 100%;
+	}
+
+}
+
+	
+
+
+
+@media screen and (max-width: 420px), screen and (max-device-width: 420px) {
+
+	.thankyou {
+ 	height: 8em;
+ 	width: auto;
+ 	padding: 0 1em 0.8em;
+	}
+
+	.thankyou-croatia {
+	height: 2.5em;
+	width: auto;
+	display: block;
+	}
+
+	.innerhead {
+	background-size: 0%;
+	}
+	
+	.ticket-buttons {
+		margin-left: 0;
+		margin-right: 0;
+	}
+	
+	.ticket-button {
+		width: 100%;
+		float: left;
+		margin: 10px 0;
+		padding: 0 0;
+	}
+	.ticket-button-title, .ticket-button-desc, .ticket-button-cta, .ticket-button-price {
+		width: auto;
+		min-height: 20px;
+		height: auto;
+		font-size: 100%;
+		line-height: 110%;
+	}
+
+	.homebody {
+		top: 110px;
+	}
+	
+
+	.contentbody-signup {
+		padding: 0;
+	}
+
+	.eventbrite {
+		height: 990px;
+	}
+
+	.partner {
+	height: 37px;
+	margin-right: 2px;
+}
+
+	
+	/*------------------------------
+	LINEUP
+	------------------------------*/
+
+	h2.lu-title {
+	font-size: 26px;
+	}
+
+	ul.lineup li.lul {
+		font-size:18px;
+		line-height:24px;
+		display:block;
+	}
+	ul.lineup li.lu0 {
+		font-size:32px;
+	}
+	ul.lineup li.lu0 .sup {
+		font-size: 20px;
+	}
+	ul.lineup li.lu1 {
+		font-size:20px;
+	}
+	ul.lineup li.lu1 .sup {
+		vertical-align: 15%;
+	}
+	ul.lineup li.lu2 {
+		font-size:16px;
+		line-height: 90%;
+	}
+	ul.lineup li.lu2 .sup {
+		font-size: 11px;
+	}
+		
+	ul.lineup li.break {
+		font-size:1px;
+		line-height:1px;
+		height: 0px;
+		font-weight: lighter;
+		display:block;
+		clear:both;
+		margin: 0 auto;
+	}
+	ul.lineup li.pbreak {
+		font-size:1px;
+		line-height:1px;
+		height: 10px;
+		font-weight: lighter;
+		display:block;
+		clear:both;
+		margin: 0 0;
+	}
+
+	/*------------------------------
+	STAGES
+	------------------------------*/
+
+	.caption {
+		position: absolute;
+		background-color: #3c0032;
+		margin: 0 20px 40px;
+		padding: 32px;
+		vertical-align: bottom;
+		bottom: 0;
+	}
+
+	.stage-name {
+		background: -webkit-linear-gradient(0deg, #e84242, #934d72);
+  		-webkit-background-clip: text;
+  		-webkit-text-fill-color: transparent;
+	}
+
+	/*.caption > h2 {
+		position: absolute;
+		top: -25px;
+		text-align: left;
+	}*/
+
+	.caption > .two-lines {
+		top: -65px !important;
+	}
+
+
+	.stage-desc {
+		display: block;
+		padding:0;
+		text-align: left;
+		font-size: 16px;
+		line-height: 20px;
+	}	
+
+	/*.mob-background > img.stage-img {
+		position: absolute;
+		object-fit: fill;
+		height: 100%;
+		width: auto;
+	}
+
+	#djs {
+		left: -110px;
+	}
+
+	#househeads {
+		left: -450px;
+	}
+
+	#location {
+		left: -450px;
+	}
+
+	#main {
+		left: -480px;
+	}
+
+	#boat {
+		left: -450px;
+	}
+
+	#barbs {
+		left: -450px;
+	}
+
+	#beach {
+		left: -450px;
+	}
+
+	#olive {
+		left: -580px;
+	}
+
+	#sunrise {
+		left: -230px;
+	}*/
+
+}
+
+@media screen and (max-width: 380px), screen and (max-device-width: 380px) {
+	
+	
+	/*------------------------------
+	LINEUP
+	------------------------------*/
+
+	h2.lu-title {
+	font-size: 24px;
+	}
+
+	ul.lineup li.lu0 {
+		font-size: 28px;
+		line-height: 105%;
+	}
+	ul.lineup li.lu1 {
+		font-size:17px;
+	}
+	ul.lineup li.lu2 {
+		font-size:14px;
+	}
+		
+	ul.lineup li.break {
+		font-size:1px;
+		line-height:1px;
+		height: 0px;
+		font-weight: lighter;
+		display:block;
+		clear:both;
+		margin: 0 auto;
+	}
+	ul.lineup li.pbreak {
+		font-size:5px;
+		line-height:5px;
+		height: 10px;
+		font-weight: lighter;
+		display:block;
+		clear:both;
+		margin: 0 0;
+	}
+
+	.homebody {
+			top: 50px;
+		}
+
+
+	.eventbrite {
+		height: 1010px;
+	}
+
+	h1,
+	h1.lu-title,
+	.caption > h2 {
+		font-size: 30px;
+		line-height: 30px;
+	}
+}
+
+
+
+
+@media screen and (max-width: 320px), screen and (max-device-width: 320px) {
+	
+	/*------------------------------
+	LINEUP
+	------------------------------*/
+
+	h1 {
+		font-size: 26px;
+		line-height: 26px;
+	}
+
+	ul.lineup li.lu0 {
+		font-size:24px;
+	}
+
+	ul.lineup li.lu1 {
+		font-size:15px;
+	}
+	ul.lineup li.lu2 {
+		font-size:13px;
+	}
+		
+	ul.lineup li.break {
+		font-size:1px;
+		line-height:1px;
+		height: 0px;
+		font-weight: lighter;
+		display:block;
+		clear:both;
+		margin: 0 auto;
+	}
+	ul.lineup li.pbreak {
+		font-size:5px;
+		line-height:5px;
+		height: 8px;
+		font-weight: lighter;
+		display:block;
+		clear:both;
+		margin: 0 0;
+	}
+
+		.thankyou {
+	 	height: 7em;
+	 	width: auto;
+	 	padding: 0 1em 0.8em;
+		}
+
+		.thankyou-croatia {
+		height: 2.1em;
+		width: auto;
+		display: block;
+		}
+		
+		.cent {
+			font-size: 14px;
+			line-height: 14px;
+		}
+
+		.homebody {
+			top: 20px;
+		}
+
+		.eventbrite {
+		height: 1080px;
+	}
+
+	.caption {
+		padding: 24px;
+	}
+
+	.btn-primary {
+		font-size: 16px;
+	}
+
+	.whatsapp {
+		font-size: 24px;
+	}
+
+
+	
+}

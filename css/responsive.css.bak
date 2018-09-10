@@ -1,0 +1,398 @@
+@media screen and (max-width: 960px), screen and (max-device-width: 960px) {
+.hauto {
+	height: auto;
+}
+	
+h1 {
+	font-size: 30px;
+	line-height: 23px;
+}
+
+h2 {
+	font-size: 15px;
+	line-height: 15px;
+}
+.website-enter { display: none !important; }
+
+#fixed-logo {
+  width: 100%;
+  height: 30px;
+  background: url(../images/tt-single.png) center left no-repeat;
+  background-size: 65%;
+}
+#fixed-logo.fixed {
+	left: 30px;
+	}
+	ul.nav-labels { display: none !important; }
+	button.accordion { padding: 0 0 10px 0; border-bottom: 1px solid #9a2218; }
+	/*------------------------------
+LINEUP
+------------------------------*/
+ul.lineup li.lul {
+	font-size:18px;
+	line-height:24px;
+	display:block;
+}
+ul.lineup li.lu0 {
+	font-size:40px;
+	line-height:22px;
+	display:block;
+	clear:both;
+	margin: 5px auto 10px auto;
+}
+ul.lineup li.lu0 .sup {
+	font-size: 20px;
+	vertical-align: 70%;
+}
+ul.lineup li.lu1 {
+	font-size:30px;
+	line-height:26px;
+	margin: 0 auto;
+	display: inline-block;
+	clear:both;
+	margin-bottom: 6px;
+}
+ul.lineup li.lu2 {
+	font-size:18px;
+	line-height:18px;
+	margin: 0 auto;
+}
+ul.lineup li.lu2 .sup {
+	font-size: 11px;
+	vertical-align: 30%;
+}
+ul.lineup li.lu3 {
+	font-size:14px;
+	line-height:12px;
+	margin: 0 auto;
+}
+ul.lineup li.break {
+	font-size:5px;
+	line-height:5px;
+	height: 5px;
+	font-weight: lighter;
+	display:block;
+	clear:both;
+	margin: 0 0;
+}
+ul.lineup li.pbreak {
+	font-size:5px;
+	line-height:5px;
+	height: 5px;
+	font-weight: lighter;
+	display:block;
+	clear:both;
+	margin: 0 0;
+}
+}
+
+@media screen and (max-width: 740px), screen and (max-device-width: 740px) {
+body {
+	background-image: none;
+	background-color: #000;
+}
+
+.hide {
+	display: none !important;
+	width: 0;
+	height: 0;
+	border: none;
+}
+
+.mobonly { 
+	display: inline-block !important;
+	width: inherit !important;
+	height: inherit !important;
+}
+
+img.artistpic {
+	width: 70% !important;
+	height: 70% !important;
+	margin: 0 auto !important;
+	padding: 20px 0px;
+	border-radius: 100%;
+}
+
+.container1 { 
+	background: url(../images/bg_00-2.jpg) center center no-repeat;
+	background-color: #00afa6;
+	background-size: auto 100%;
+}
+
+.container2 { 
+	background: none;
+	background-color: #00afa6;
+}
+
+.container3 { 
+	background: none;
+	background-color: #008b8c;
+	height: auto;
+}
+
+.container4 { 
+	background: none;
+	background-color: #1d5556;
+}
+
+.container5 { 
+	background: none;
+	background-color: #eb4124;
+}
+
+.container6 { 
+	background: none;
+	background-color: #b8331c;
+}
+
+.container7 { 
+	background: none;
+	background-color: #762112;
+}
+
+.container8 { 
+	background: none;
+	background-color: #f4cf46;
+}
+
+.innerbody {
+	width: auto;
+	height: auto;
+	position: relative;
+	top: 0;
+	margin: 0 auto;
+	padding: 30px 30px;
+}
+.innerhead {
+	position: relative;
+	max-width: 1070px;
+	width: 100%;
+	height: 90px;
+	margin: 0 auto;
+	padding: 0 0;
+	border-bottom: none;
+	border-color: #FFF;
+	background: url(../images/tt-sml.png) 90px center no-repeat #000;
+	background-size: auto 30px;
+}
+
+
+/*------------------------------
+HEADER
+------------------------------*/
+#header {
+	position: fixed;
+	width: 100%;
+	height: auto;
+	margin: 0 auto;
+	padding: 0 0 ;
+	top: 0;
+	left: 0;
+	background: none;
+	z-index: 3;
+}
+
+.mob-nav-btn {
+	display: block;
+	position: fixed;
+	width: 30px;
+	height: 30px;
+	top: 30px;
+	left: 30px;
+	margin: 0 0;
+	padding: 0 0;
+	background: url(../images/mob-nav.png) center center no-repeat;
+	overflow: hidden;
+}
+
+.mob-nav-btn a {
+	display: block;
+	width: 30px;
+	height: 30px;
+}
+
+.social {
+	position: relative;
+	bottom: 0px;
+	left: 10px;
+	right: 0px;
+	margin: 0 0;
+	height: 50px;
+}
+ul.icons li {
+	height: 50px;
+}
+
+.navigation-m {
+	width: auto;
+	position: absolute;
+	left: 30px;
+	top: 0px;
+	margin: 0 0;
+	padding: 0 0;
+	display: block;
+}
+
+ul.nav-m {
+	list-style: none;
+	width: auto;
+	margin: 0 0;
+	padding: 0 0;
+	text-align: left;
+	float: left;
+	display: block;
+}
+ul.nav-labels-m {
+	list-style: none;
+	width: auto;
+	margin: 0 0;
+	padding: 0 0;
+	text-align: left;
+	float: left;
+}
+
+
+
+/*------------------------------
+SECTIONS
+------------------------------*/
+.homebody {
+	width: auto;
+	height: auto;
+	position: relative;
+	top: 80px;
+	margin: 0 auto;
+	float: none;
+}
+
+.contentbody {
+	width: auto;
+	height: 100%;
+	position: relative;
+	top: 30px;
+	margin: 0 auto;
+	padding: 0 0;
+	float: none;
+}
+	.textfull {
+		width: 100%;
+		height: auto;
+		margin: 0 0;
+		padding: 15px 0px;
+		overflow: auto;
+		clear: both;
+	}
+	.texthalf {
+		width: 100%;
+		height: auto;
+		margin: 0 0;
+		padding: 15px 0px;
+		overflow: auto;
+		clear: both;
+	}
+	img.quotepic {
+	float: none;
+	}
+	.quotebody p {
+	padding-top: 0%;
+	text-align:center;
+	}
+
+
+/*------------------------------
+HOME PAGE
+------------------------------*/
+
+.tt {
+	width: 65%;
+	height: auto;
+	display: block;
+	padding: 33% 0 0 0;
+	margin: 0 auto;
+}
+
+#fixed-logo { display: none !important; }
+#fixed-logo.fixed { display: none !important; }
+
+h1 {
+	font-size: 125%;
+	line-height: 100%;
+	padding: 0 0 5px 0;
+}
+
+h2 {
+	font-size: 110%;
+	line-height: 100%;
+	padding: 0 0 5px 0;
+}
+
+.artistinfo {
+	width: 70%;
+	height: auto;
+	text-align: center;
+	margin: 0 auto;
+	padding: 0px 0px;
+}
+
+/*------------------------------
+LINEUP
+------------------------------*/
+ul.lineup li.lul {
+	font-size:18px;
+	line-height:24px;
+	display:block;
+}
+ul.lineup li.lu0 {
+	font-size:40px;
+	line-height:26px;
+	display:block;
+	clear:both;
+	margin: 5px auto 10px auto;
+}
+ul.lineup li.lu0 .sup {
+	font-size: 20px;
+	vertical-align: 70%;
+}
+ul.lineup li.lu1 {
+	font-size:30px;
+	line-height:26px;
+	margin: 0 auto;
+	display: inline-block;
+	clear:both;
+	margin-bottom: 6px;
+}
+ul.lineup li.lu2 {
+	font-size:18px;
+	line-height:18px;
+	margin: 0 auto;
+}
+ul.lineup li.lu2 .sup {
+	font-size: 11px;
+	vertical-align: 30%;
+}
+ul.lineup li.break {
+	font-size:5px;
+	line-height:5px;
+	height: 5px;
+	font-weight: lighter;
+	display:block;
+	clear:both;
+	margin: 0 0;
+}
+ul.lineup li.pbreak {
+	font-size:5px;
+	line-height:5px;
+	height: 5px;
+	font-weight: lighter;
+	display:block;
+	clear:both;
+	margin: 0 0;
+}
+}
+
+@media screen and (max-width: 420px), screen and (max-device-width: 420px) {
+	.innerhead {
+	background: #000;
+	background-size: 0%;
+}	
+}

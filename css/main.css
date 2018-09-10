@@ -1,0 +1,1982 @@
+html {
+	-webkit-font-smoothing: antialiased;
+}
+
+body {
+	width: 100%;
+	height: 100%;
+	margin: 0px 0px;
+	padding: 0px 0px;
+	background-color: #000;
+	text-align: center;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-weight: normal;
+	-webkit-text-size-adjust: none; 
+	-ms-text-size-adjust: none;
+}
+
+.hide {
+	display: inherit !important;
+}
+
+.force-hide {
+	display: none !important;
+}
+
+.mobonly,
+.tablet {
+	display: none !important;
+	width: 0;
+	height: 0;
+	border: none;
+}
+
+img {
+	border: none;
+	width: 100%;
+	height: auto;
+	margin: 0 auto;
+}
+img.realsize {
+	width: auto !important;
+	height: auto !important;
+}
+img.seventyfivesize {
+	width: 75% !important;
+	height: auto !important;
+}
+img.artistpic {
+	width: 300px !important;
+	height: 300px !important;
+	margin: 0 auto !important;
+	padding: 20px 20px;
+	border-radius: 300px;
+}
+img.quotepic {
+	width: 200px !important;
+	height: 200px !important;
+	margin: 0 auto !important;
+	padding: 20px 20px;
+	border-radius: 200px;
+	float: left;
+	display: inline-block;
+}
+img a {
+	border: none;
+	outline: none;
+	text-decoration: none;
+}
+
+.svg-img {
+	width: 100%;
+	height: auto;
+}
+a {
+	text-decoration: none;
+	border: none;
+	cursor: pointer;
+}
+
+.img-link {
+	border: none !important;
+}
+
+.lightbox {
+	display: none;
+}
+
+#wrapper {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	margin: 0 auto;
+	padding: 0 0;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+
+/*------------------------------
+LAYERS
+------------------------------*/
+
+.triple-logo {
+	  position: fixed;
+    left: 5%;
+    top: 40%;
+    width: 90%;
+    z-index: 2;
+}
+
+#tagline {
+	z-index: 99 !important;
+}
+
+#dates {
+	z-index: 99 !important;
+}
+
+#fixed-logo.fixed {
+  position: absolute;
+  top: 30px;
+  margin: 0 auto;
+  width: 100%;
+  height: 30px;
+  display: block;
+}
+
+.container0 { 
+	width: 100%;
+	height: 100%;
+	margin: 0 auto;
+	padding: 0 0 200px 0;
+	/*background: url(../images/thankyou2.jpg) center center no-repeat;*/
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	background-color: transparent;
+	z-index: 2;
+	position: relative;
+	clip: rect(0,auto,auto,0);
+	overflow: auto;
+  -webkit-overflow-scrolling: touch;
+}
+
+.mobile-pralax-container{
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  z-index: 2;
+  left: 0;
+  bottom: 0;
+  clip: rect(0,auto,auto,0);
+}
+
+.mob-background {
+	display: block;
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    z-index: -10;
+    transform: translate3d(0px,0,0);
+}
+
+.mob-background > img {
+	object-fit: cover;
+    width: 100vw;
+    height: 100vh;
+    z-index: -10;
+}
+
+.container1 { 
+	width: 100%;
+	height: 100%;
+	margin: 0 auto;
+	padding: 0 0;
+	background: none;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	background-color: transparent;
+	z-index: 2;
+	position: relative;
+	clip: rect(0,auto,auto,0);
+}
+
+.container2 { 
+	width: 100%;
+	height: auto;
+	margin: 0 auto;
+	padding: 0 0 120px 0;
+	background-color: #e84242;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	z-index: auto;
+	position: relative;
+	clip: rect(0,auto,auto,0);
+}
+
+.container3 { 
+	width: 100%;
+	height: auto;
+	margin: 0 auto;
+	padding: 0;
+	/*background: url(../images/g6.jpg) center center no-repeat;*/
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	background-color: #e84242;
+	position: relative;
+	z-index: 6;
+}
+
+.container4 { 
+	width: 100%;
+	height: auto;
+	margin: 0 auto;
+	padding: 0 0 200px 0;
+/*	background: url(../images/bg_02-1.jpg) center center no-repeat fixed;*/
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	background-color: #1d2452;
+	position: relative;
+	z-index: 4;
+}
+
+.container5 { 
+	width: 100%;
+	height: auto;
+	margin: 0 auto;
+	padding: 0;
+	/*background: url(../images/g4.jpg) center center no-repeat;*/
+	-webkit-background-size: auto 100%;
+	-moz-background-size: auto 100%;
+	-o-background-size: auto 100%;
+	background-size: auto 100%;
+	background-color: #e84242;
+	position: relative;
+	z-index: 4;
+}
+
+.container6 { 
+	width: 100%;
+	height: auto;
+	margin: 0 auto;
+	padding: 0;
+	/*background: url(../images/g4.jpg) center center no-repeat;*/
+	-webkit-background-size: auto 100%;
+	-moz-background-size: auto 100%;
+	-o-background-size: auto 100%;
+	background-size: auto 100%;
+	position: relative;
+	z-index: 2;
+}
+
+.container7 { 
+	width: 100%;
+	height: auto;
+	min-height: 100%;
+	margin: 0 auto;
+	padding: 0 0 200px 0;
+/*	background: url(../images/bg_04-1.jpg) center center no-repeat fixed;*/
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	background-color: #f26b38;
+	z-index: 1;
+}
+
+.container8 { 
+	width: 100%;
+	height: auto;
+	min-height: 100%;
+	margin: 0 auto;
+	padding: 0 0 200px 0;
+/*	background: url(../images/bg_04-3.jpg) center center no-repeat fixed;*/
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	background-color: #ffc43d;
+	z-index: 1;
+}
+
+.container9 { 
+	width: 100%;
+	height: auto;
+	margin: 0 auto;
+	padding: 25px 0;
+	border-top: 1px solid #222;
+	background: #000;
+	position: relative;
+	z-index: 4;
+	overflow: auto;
+  -webkit-overflow-scrolling: touch;
+}
+
+
+.innerhead {
+	position: relative;
+	max-width: 1070px;
+	width: 100%;
+	height: 100%;
+	margin: 0 auto;
+	padding: 30px 0;
+	border-color: #FFF;
+}
+
+.filledhead {
+		background-color: #e84242;
+}
+
+.filledhead-purp {
+		background-color: #e84242;
+}
+
+.innerbody {
+	max-width: 1060px;
+	height: 100%;
+	top: 0;
+	margin: 0 auto;
+	padding: 0 0;
+}
+
+.innerfoot {
+	max-width: 1060px;
+	height: 100%;
+	margin: 0 auto;
+	padding: 10px 0 10px 0;
+	position: relative;
+	z-index: 5;
+}
+
+/*------------------------------
+SECTIONS
+------------------------------*/
+.homebody {
+	width: 100%;
+	height: auto;
+	position: relative;
+	top: 35%;
+	margin: 0 auto;
+}
+
+.contentbody {
+	width: auto;
+	height: 100%;
+	position: relative;
+	top: 30px;
+	margin: 0 auto;
+	padding: 40px 110px;
+	display: block;
+	clear: both;
+}
+
+.contentbody-signup {
+	width: auto;
+	height: 100%;
+	position: relative;
+	margin: 0 auto;
+	padding: 0 100px;
+	display: block;
+	clear: both;
+}
+	.textfull {
+		width: auto;
+		height: auto;
+		margin: 0 0 50px 0;
+		padding: 15px 0px;
+		clear: both;
+	}
+	.breakfull {
+		width: auto;
+		height: auto;
+		margin: 0 0;
+		padding: 0 0;
+		overflow: auto;
+		clear: both;
+	}
+	.text65 {
+		width: 65%;
+		height: auto;
+		margin: 0 auto 50px auto;
+		padding: 5px 0px;
+		clear: both;
+	}
+	.text65 img {
+		width: 100% !important;
+	}
+	.texthalf {
+		width: 45%;
+		height: auto;
+		margin: 0 0 25px 0;
+		padding: 15px 0px;
+	}
+	.quotebody {
+		width: 90%;
+		height: auto;
+		min-height: 240px;
+		margin: 0 auto;
+		padding: 0 0;
+		vertical-align: middle;
+	}
+	.quotebody p {
+	padding-top: 10%;
+	}
+	.gallery {
+		width: auto;
+		height: auto;
+		margin: 0 0;
+		padding: 0;
+	}
+	.gallery img {
+		width: 100% !important;
+		height: auto;
+	}
+	.artistinfo {
+		width: 50%;
+		min-width: 700px;
+		height: auto;
+		text-align: center;
+		margin: 0 auto;
+		padding: 50px 50px;
+	}
+	.artistinfo h2 {
+		text-align: center;
+		margin-bottom: 15px;
+		color: #00afa6;
+	}
+	.artistinfo p {
+		text-align: center;
+		color: #00afa6;
+	}
+
+	.eb-widget {
+		background-color: #11c1e2 !important;
+		border: 0 !important;
+		border-radius: 0 !important;
+	}
+
+	.footer-logo {
+		width: 100px;
+		height: auto;
+	}
+
+/*------------------------------
+HEADER
+------------------------------*/
+#header {
+	position: fixed;
+	width: 100%;
+	height: 20px;
+	margin: 0 auto;
+	padding: 0 0 ;
+	top: 0;
+	left: 0;
+	background: none;
+	z-index: 5;
+}
+
+#fixed-logo {
+  position: relative;
+  top: 900px;
+  margin: 0 auto;
+  width: 100%;
+  height: 30px;
+  background: url(../images/tt-single.png) center center no-repeat;
+  background-size: 60%;
+  display: none;
+}
+
+
+.prompt {
+  position: absolute;
+  bottom: 30px;
+  margin: 0 auto;
+  width: 100%;
+  height: 34px;
+  display: block;
+  animation: bounce linear 2s;
+  animation-iteration-count: infinite;
+  transform-origin: 50% 50%;
+  -webkit-animation: bounce linear 2s;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-transform-origin: 50% 50%;
+  -moz-animation: bounce linear 2s;
+  -moz-animation-iteration-count: infinite;
+  -moz-transform-origin: 50% 50%;
+  -o-animation: bounce linear 2s;
+  -o-animation-iteration-count: infinite;
+  -o-transform-origin: 50% 50%;
+  -ms-animation: bounce linear 2s;
+  -ms-animation-iteration-count: infinite;
+  -ms-transform-origin: 50% 50%;
+}
+.prompt a {
+	-o-transition: .2s ease-in-out;
+	-ms-transition: .2s ease-in-out;
+	-moz-transition: .2s ease-in-out;
+	-webkit-transition: .2s ease-in-out;
+	transition: .2s ease-in-out;
+}
+.prompt a:hover {
+	-o-transition: .2s ease-in-out;
+	-ms-transition: .2s ease-in-out;
+	-moz-transition: .2s ease-in-out;
+	-webkit-transition: .2s ease-in-out;
+	transition: .2s ease-in-out;
+}
+
+.after-movie {
+	position: absolute;
+	bottom: 30px;
+	margin: 0 auto;
+	display: block;
+	width: 100%;
+}
+
+@keyframes bounce{
+  0% {
+    transform:  translate(0px,0px)  ;
+  }
+  51% {
+    transform:  translate(0px,10px)  ;
+  }
+  100% {
+    transform:  translate(0px,0px)  ;
+  }
+}
+
+@-moz-keyframes bounce{
+  0% {
+    -moz-transform:  translate(0px,0px)  ;
+  }
+  51% {
+    -moz-transform:  translate(0px,10px)  ;
+  }
+  100% {
+    -moz-transform:  translate(0px,0px)  ;
+  }
+}
+
+@-webkit-keyframes bounce {
+  0% {
+    -webkit-transform:  translate(0px,0px)  ;
+  }
+  51% {
+    -webkit-transform:  translate(0px,10px)  ;
+  }
+  100% {
+    -webkit-transform:  translate(0px,0px)  ;
+  }
+}
+
+@-o-keyframes bounce {
+  0% {
+    -o-transform:  translate(0px,0px)  ;
+  }
+  51% {
+    -o-transform:  translate(0px,10px)  ;
+  }
+  100% {
+    -o-transform:  translate(0px,0px)  ;
+  }
+}
+
+@-ms-keyframes bounce {
+  0% {
+    -ms-transform:  translate(0px,0px)  ;
+  }
+  51% {
+    -ms-transform:  translate(0px,10px)  ;
+  }
+  100% {
+    -ms-transform:  translate(0px,0px)  ;
+  }
+}
+
+
+
+.navigation {
+	width: auto;
+	position: fixed;
+	left: 30px;
+	top: 25%;
+	margin: 0 0;
+	padding: 0 0;
+}
+
+ul.nav {
+	list-style: none;
+	width: auto;
+	margin: 0 0;
+	padding: 0 0;
+	text-align: left;
+	float: left;
+}
+ul.nav li {
+	height: 50px;
+	width: 50px;
+	margin: 0 0;
+	overflow: hidden;
+	padding: 0;
+	display: block;
+	cursor: pointer;
+	font-family: 'ITCAvantGardeGothW04-Bo 1122872', "Helvetica Neue", Arial;
+	font-size: 18px;
+	text-indent: -9999px;
+}
+
+ul.nav li a {
+	margin: 0 0;
+	padding: 0 0;
+}
+
+ul.nav li a:hover {
+	margin: 0 0;
+	padding: 0 0;
+}
+
+.nav .S1 {
+	background: #FFF;
+	display: block;
+	height: 50px;
+}
+.nav .S1:hover {
+	background: #EEE;
+}
+.nav .S2 {
+	background: #ed2149;
+	display: block;
+	height: 50px;
+}
+.nav .S2:hover {
+	background: #be1a3a;
+}
+.nav .S3 {
+	background: #a5216d;
+	display: block;
+	height: 50px;
+}
+.nav .S3:hover {
+	background: #841a57;
+}
+.nav .S4 {
+	background: #269399;
+	display: block;
+	height: 50px;
+}
+.nav .S4:hover {
+	background: #1e767a;
+}
+.nav .S5 {
+	background: #11c1e2;
+	display: block;
+	height: 50px;
+}
+.nav .S5:hover {
+	background: #0e9ab5;
+}
+.nav .S6 {
+	background: #0a77a5;
+	display: block;
+	height: 50px;
+}
+.nav .S6:hover {
+	background: #085f84;
+}
+.nav .S7 {
+	background: #f26b38;
+	display: block;
+	height: 50px;
+}
+.nav .S7:hover {
+	background: #c2562d;
+}
+.nav .S8 {
+	background: #ffc43d;
+	display: block;
+	height: 50px;
+}
+.nav .S8:hover {
+	background: #cc9d31;
+}
+
+ul.nav-labels {
+	list-style: none;
+	width: auto;
+	margin: 0 0;
+	padding: 0 0;
+	text-align: left;
+	float: left;
+}
+ul.nav-labels li {
+	height: 50px;
+	width: auto;
+	margin: 0 0;
+	padding: 0;
+	display: block;
+	font-family: 'ITCAvantGardeGothW04-Bo 1122872', "Helvetica Neue", Arial;
+	font-size: 13px;
+	line-height: 50px;
+	color: #FFF;
+	text-indent: 15px;
+	text-align: left;
+}
+
+ul.nav-labels li a {
+	text-decoration: none;
+	color: #FFF;
+}
+
+ul.nav-labels li a:hover {
+	text-decoration: none;
+	color: #EEE;
+}
+
+
+ul.icons {
+	list-style: none;
+	width: auto;
+	margin: 0 0;
+	padding: 0 0;
+	text-align: right;
+	float: right;
+}
+ul.icons li {
+	height: 20px;
+	margin: 0 0px;
+	overflow: hidden;
+	padding: 0;
+	display: inline-block;
+	cursor: pointer;
+}
+
+li.double {
+	width: 40px;
+}
+
+ul.icons li a {
+	background-image: url(../images/social-icons-white.png);
+	background-repeat: no-repeat;
+	background-size: 141px;
+	height: 20px;
+	width: 20px;
+	overflow: hidden;
+	padding: 0 0px;
+	display: inline-block;
+	cursor: pointer;
+	color: #FFF;
+}
+.icons .facebook {
+	background-position:0 0;
+}
+.icons .facebook:hover {
+	background-position:0 -2px;
+}
+
+.icons .twitter {
+	background-position: -25px 0;
+}
+.icons .twitter:hover {
+	background-position: -25px -2px;
+}
+
+.icons .instagram {
+	background-position: -50px 0;
+}
+.icons .instagram:hover {
+	background-position: -50px -2px;
+}
+
+.icons .googleplus {
+	background-position: -75px 0;
+}
+.icons .googleplus:hover {
+	background-position: -75px -2px;
+}
+
+.icons .soundcloud {
+	background-position: -100px 0;
+	width: 40px;
+}
+.icons .soundcloud:hover {
+	background-position: -100px -2px;
+}
+
+
+/*------------------------------
+HOME PAGE
+------------------------------*/
+.tt {
+	width: 80%;
+	height: auto;
+	display: block;
+	padding: 0 0;
+	margin: 0 auto 30px auto;
+	vertical-align: central;
+	font-size: 1em;
+}
+
+.cycle-slide,
+.cycle-slide-active {
+	right: 0;
+	bottom: 0;
+}
+
+.mob-logo {
+	width: 85%;
+	height: auto;
+	display: block;
+	padding: 50px 0 10px;
+	margin: 0 auto 30px auto;
+	vertical-align: central;
+	font-size: 1em;
+}
+
+.mob-nav-btn {
+	display: none;
+	
+}
+
+.website-enter {
+	width: auto;
+	height: 30px;
+	display: block;
+	position: fixed;
+	top: 30px;
+	left: 30px;
+	text-align: left;
+	font-family: 'ITCAvantGardeGothW04-Bo 1122872', "Helvetica Neue", Arial;
+	font-size: 16px;
+	line-height: 30px;
+	color: #FFF;
+	padding: 0 0;
+	margin: 0 0;
+	z-index: 9;
+}
+.website-enter a {
+	color: #FFF;
+}
+
+.website-enter > .countdown {
+	font-size: 20px;
+}
+
+.buy-tickets {
+	width: 144px;
+	height: 30px;
+	display: block;
+	position: fixed;
+	top: 30px;
+	right: 30px;
+	background: #FFF;
+	text-align: center;
+	font-family: 'ITCAvantGardeGothW04-Bo 1122872', "Helvetica Neue", Arial;
+	font-size: 16px;
+	line-height: 30px;
+	color: #000;
+	padding: 0 0;
+	margin: 0 0;
+	z-index: 3;
+}
+.buy-tickets a {
+	width: 144px;
+	height: 30px;
+	color: #000;
+}
+
+#mob-tickets {
+	width: 144px;
+	height: 30px;
+	display: none;
+	position: fixed;
+	top: 30px;
+	right: 30px;
+	background: #FFF;
+	text-align: center;
+	font-family: 'ITCAvantGardeGothW04-Bo 1122872', "Helvetica Neue", Arial;
+	font-size: 16px;
+	line-height: 30px;
+	color: #000;
+	padding: 0 0;
+	margin: 0 0;
+	z-index: 3;
+}
+#mob-tickets a {
+	width: 144px;
+	height: 30px;
+	color: #000;
+}
+
+.buy-tickets-mob {
+	display: none;
+	width: 144px;
+	height: 30px;
+	position: fixed;
+	left: 50%;
+	margin-right: 50%;
+	transform: translate(-50%, 0);
+	bottom: 20px;
+	background: #FFF;
+	text-align: center;
+	font-family: 'ITCAvantGardeGothW04-Bo 1122872', "Helvetica Neue", Arial;
+	font-size: 16px;
+	line-height: 30px;
+	color: #000;
+	padding: 0 0;
+	margin: 0 0;
+	z-index: 3;
+}
+
+.newsletter-signup {
+	width: auto;
+	height: 30px;
+	display: block;
+	position: fixed;
+	bottom: 30px;
+	left: 30px;
+	text-align: left;
+	font-family: 'ITCAvantGardeGothW04-Bo 1122872', "Helvetica Neue", Arial;
+	font-size: 16px;
+	line-height: 30px;
+	color: #FFF;
+	padding: 0 0;
+	margin: 0 0;
+}
+.newsletter-signup a {
+color: #FFF;
+}
+
+.social {
+	width: 144px;
+	height: 30px;
+	display: block;
+	position: fixed;
+	bottom: 30px;
+	right: 30px;
+	padding: 0 0;
+	margin: 0 0;
+}
+
+.thankyou {
+ 	height: 11em;
+ 	width: auto;
+ 	padding: 0 1em 1em;
+}
+
+.thankyou-croatia {
+	height: 3em;
+	width: auto;
+	display: block;
+	margin-bottom: 2.5em;
+}
+
+.dc18-logo {
+	width: 70%;
+	height:auto;
+	padding: 0 1em 1em;
+}
+
+
+/*------------------------------
+LINEUP
+------------------------------*/
+
+.lineup-svg {
+	padding-top: 120px;
+}
+
+ul.lineup {
+	list-style: none;
+	width: auto;
+	margin: 0 auto;
+	padding: 0 0;
+	text-align: center;
+	cursor: auto;
+	color: #ffac20;
+}
+ul.lineup li {
+	height: auto;
+	width: auto;
+	display: inline-block;
+	cursor: pointer;
+	font-family: 'ITCAvantGardeGothW04-Bo 1122872', "Helvetica Neue", Arial;
+	letter-spacing: -1px;
+	line-height:100%;
+	padding: 0 0;
+	margin: 0 0;
+	cursor: auto;
+	color: #fff;
+}
+ul.lineup li a {
+	color: #FFF;
+	text-decoration:none;
+	-o-transition: .6s ease-in-out;
+	-ms-transition: .6s ease-in-out;
+	-moz-transition: .6s ease-in-out;
+	-webkit-transition: .6s ease-in-out;
+	transition: .6s ease-in-out;
+	cursor: auto;
+}
+/*
+ul.lineup li a:hover {
+	color: #00afa6;
+	text-decoration:none;
+	-o-transition: .2s ease-in-out;
+	-ms-transition: .2s ease-in-out;
+	-moz-transition: .2s ease-in-out;
+	-webkit-transition: .2s ease-in-out;
+	transition: .2s ease-in-out;
+	cursor: auto;
+}
+*/
+ul.lineup li.lul {
+	font-size:15px;
+	line-height:15px;
+	display:block;
+}
+ul.lineup li.lu0 {
+	font-size:72px;
+	line-height:95%;
+	display:block;
+	clear:both;
+}
+ul.lineup li.lu0 .sup {
+	font-size: 1px;
+	vertical-align: 15%;
+}
+
+ul.lineup li.lu0 .sup.sup-null {
+	background: transparent;
+	-webkit-text-fill-color: transparent;
+}
+
+ul.lineup li.lu1 {
+	font-size:40px;
+	line-height:105%;
+	margin: 0 1.6%;
+}
+ul.lineup li.lu1 .sup {
+	font-size: 10px;
+	vertical-align: 30%;
+	line-height:18px;
+}
+ul.lineup li.lu2 {
+	font-size:28px;
+	line-height:105%;
+	margin: 0 1%;
+}
+ul.lineup li.lu2 .sup {
+	font-size: 5px;
+	vertical-align: 14%;
+}
+ul.lineup li.lu3 {
+	font-size:24px;
+	line-height:24px;
+	margin: 0 auto;
+}
+ul.lineup li.break {
+	font-size:1px;
+	line-height:1px;
+	height: 1px;
+	font-weight: lighter;
+	display:block;
+	clear:both;
+	margin: 0 0;
+}
+ul.lineup li.pbreak {
+	font-size:25px;
+	line-height:25px;
+	height: 25px;
+	font-weight: lighter;
+	display:block;
+	clear:both;
+	margin: 0 0;
+}
+
+ul.lineup li.hypen {
+	color: #f6db4e;
+}
+
+
+/*------------------------------
+TICKETS
+------------------------------*/
+
+.eventbrite {
+	height: 700px;
+}
+
+.partner {
+	height: 44px;
+	width: auto;
+	padding: 10px 20px;
+	border: 1px solid #1d2452;
+	margin-right: 10px;
+	transition: 100ms;
+	border-radius: 0;
+}
+
+.partner:hover {
+	background-color: #1d2452;
+}
+
+.lovemusictravel {
+	height: 50px;
+	width: auto;
+}
+
+/*------------------------------
+CONTACT
+------------------------------*/
+
+.whatsapp {
+	font-size: 32px;
+}
+
+/*------------------------------
+FOOTER
+------------------------------*/
+#footer {
+	width: 100%;
+	height: auto;
+	text-align: center;
+	margin: 0 auto;
+	padding: 0 0;
+	background: none;
+	z-index: 0;
+}
+
+#footer p {
+	text-align: center;
+	font-size: 11px;
+	font-weight: normal;
+	font-style: normal;
+	font-family: 'ITCAvantGardeGothW04-Bo 1122872', "Helvetica Neue", Arial;
+	text-transform: uppercase;
+	padding: 10px 0;
+	margin: 0 auto;
+}
+
+#footer p a {
+	padding-bottom: 1px;
+	color: #FFF;
+	text-decoration: none;
+	border-bottom: none;
+}
+
+#footer p a:hover {
+	padding-bottom: 1px;
+	color: #FFF;
+	text-decoration: none;
+	border-bottom: 1px dotted #FFF;
+}
+
+/*---- LOGO ----*/
+.logo {
+	position: absolute;
+	top: 30px;
+	left: 0;
+	margin: 0 auto;
+	padding: 0 0;
+	width: 100%;
+	height: 32px;
+	background: url(../images/date.png) no-repeat center top;
+	background-size: 199px auto;
+	z-index: 0;
+}
+
+
+/*------------------------------
+TYPOGRAPHY
+------------------------------*/
+h1 {
+	font-family: 'ITCAvantGardeGothW04-Bo 1122872', "Helvetica Neue", Arial;
+	font-size: 40px;
+	font-weight: normal;
+	line-height: 38px;
+	letter-spacing: -1.5px;
+	margin: 0;
+	padding: 20px 0 12px 0;
+	text-align: left;
+	text-transform: uppercase;
+	color: #1d2452;
+	background: -webkit-linear-gradient(0deg, #1d2452, #934d72);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+h2 {
+	font-family: 'ITCAvantGardeGothW04-Bo 1122872', "Helvetica Neue", Arial;
+	font-size: 40px;
+	font-weight: normal;
+	line-height: 90%;
+	letter-spacing: 0px;
+	margin: 5px 0 5px 0;
+	padding: 0 0;
+	text-align: left;
+	text-transform: uppercase;
+	color: #FFF;
+}
+
+h1.lu-title {
+	font-size: 40px;
+	text-align: center;
+	/*margin-bottom: 5%;*/
+}
+
+
+
+h3 {
+	font-family: 'ITCAvantGardeGothW04-Bo 1122872', "Helvetica Neue", Arial;
+	font-size: 60px;
+	font-weight: normal;
+	line-height: 90%;
+	letter-spacing: 0px;
+	margin: 0 0 10px 0;
+	padding: 0 0 5px 0;
+	text-align: left;
+	text-transform: uppercase;
+	color: #FFF;
+}
+h3 a {
+	text-decoration: none;
+	color: #FFF;
+}
+h3 a:hover {
+	text-decoration: none;
+	color: #EEE;
+	border-bottom: 1px #FFF solid;
+}
+
+h4 {
+	font-family: 'ITCAvantGardeGothW04-Bo 1122872', "Helvetica Neue", Arial;
+	font-size: 35px;
+	font-weight: normal;
+	line-height: 33px;
+	letter-spacing: 0px;
+	margin: 0 0 10px 0;
+	padding: 20px 0 10px 0;
+	text-align: left;
+	text-transform: uppercase;
+	color: #FFF;
+	border-bottom: 4px #FFF solid;
+}
+
+h5 {
+	font-family: 'ITCAvantGardeGothW04-Bo 1122872', "Helvetica Neue", Arial;
+	font-size: 18px;
+	font-weight: normal;
+	line-height: 20px;
+	letter-spacing: 0px;
+	margin: 0 0 0px 0;
+	padding: 20px 0 0px 0;
+	text-align: center;
+	text-transform: uppercase;
+	color: #FFF;
+}
+
+h6 {
+	font-family: 'ITCAvantGardeGothW04-Bo 1122872', "Helvetica Neue", Arial;
+	font-size: 28px;
+	font-weight: normal;
+	line-height: 26px;
+	letter-spacing: 0px;
+	margin: 28px 0 8px 0;
+	padding: 0;
+	text-align: left;
+	text-transform: uppercase;
+	color: #934d72;
+}
+
+p {
+	font-family: "Roboto", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 16px;
+	font-weight: normal;
+	line-height: 20px;
+	margin: 0 0 20px 0;
+	padding: 0 0;
+	text-align: left;
+	color: #FFF;
+}
+
+.sub {
+	font-size: 10px;
+	margin-top: -5px;
+}
+
+p img {
+	width: 100%;
+	height: auto;
+	border: none;
+	outline: none;
+	text-decoration: none;
+}
+
+p img a {
+	width: 100%;
+	height: auto;
+	border: none;
+	outline: none;
+	text-decoration: none;
+	border-bottom: none !important;
+}
+
+p a {
+	color: #1d2452;
+	text-decoration: none;
+	border-bottom: 1px #1d2452 solid;
+	padding: 1px;
+}
+
+p img a {
+	width: 100%;
+	height: auto;
+	border: none;
+	outline: none;
+	text-decoration: none !important;
+	border-bottom: none !important;
+}
+
+p a:hover {
+	color: #fff165;
+	border-bottom: 1px #fff165 solid;
+}
+
+.centre {
+	text-align: center !important;
+}
+p.quote {
+	width:60%;
+	text-align:left;
+	display: inline-block;
+	margin-top:25%;
+}
+
+ul.bodycopy {
+	list-style: disc;
+	margin: 0 0 0 5px;
+	text-align: left;
+	padding: 0;
+	color: #FFF;
+}
+ul.bodycopy li {
+	margin: 0 0 15px 15px;
+	padding: 0 0;
+}
+
+ol.bodycopy {
+	margin: 0 0 0 5px;
+	text-align: left;
+	padding: 0;
+	color: #FFF;
+}
+ol.bodycopy li {
+	margin: 0 0 15px 15px;
+	padding: 0 0;
+}
+blockquote {
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 14px;
+	font-weight: normal;
+	font-style: italic; 
+	line-height: 19px;
+	margin: 10px 0 20px 0;
+	padding: 0 0;
+	text-align: left;
+	color: #00afa6;
+	padding-top: 10px;
+	border-top: 1px solid #00afa6;
+}
+blockquote:before {
+    content: '\201C';
+}
+blockquote:after {
+	content: '\201D';
+}
+.credit {
+	font-family: 'ITCAvantGardeGothW04-Bo 1122872', "Helvetica Neue", Arial;
+	font-size: 15px;
+	text-transform: uppercase;
+	margin-top:10px;
+}
+
+.credit-sml {
+	font-family: 'ITCAvantGardeGothW04-Bo 1122872', "Helvetica Neue", Arial;
+	font-size: 15px;
+	text-transform: uppercase;
+	margin-top:10px;
+	color: #FFF;
+}
+
+.blk {
+	color: #000 !important;
+	border-bottom-color: #000 !important;
+}
+
+.sup {
+	font-size: 40% !important;
+	position: relative !important;
+	bottom: 1.3ex !important;
+	left: -0.4ex !important;
+	
+}
+
+
+
+/*------------------------------
+YouTube SIZE FIX
+------------------------------*/
+.video-container {
+    position: relative;
+    padding-bottom: 42.25%;
+    height: 0; 
+    overflow: hidden;
+	}
+	 
+	.video-container iframe,
+	.video-container object,
+	.video-container embed {
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+	}
+
+
+/*------------------------------
+MISC
+------------------------------*/
+.fl {
+	float: left;
+}
+.fr {
+	float: right;
+}
+.cent {
+	text-align: center !important;
+	margin: 10px auto 30px;
+	padding: 0 0;
+}
+.pad10 {
+	padding: 0 10px;
+}
+.pad20 {
+	padding: 0 40px 0 0;
+	width: auto;
+	height: 100%;
+}
+.pad30 {
+	padding: 15px 0;
+	width: auto;
+	height: 100%;
+}
+.pad40 {
+	padding: 0 40px 0 0;
+	line-height: 40px;
+	width: auto;
+	height: 100%;
+}
+
+#myBtn {
+	width: 100%;
+}
+
+
+/*------------------------------
+ACCORDION
+------------------------------*/
+/* Style the buttons that are used to open and close the accordion panel */
+button.accordion {
+    font-family: "Helvetica Neue", Arial;
+	font-size: 16px;
+	font-weight: bold;
+	line-height: 20px;
+	letter-spacing: 0px;
+	margin: 5px 0 5px 0;
+	padding: 0 0 5px 0;
+	text-align: left;
+	color: #fff;
+  cursor: pointer;
+  width: 100%;
+	border-top: none;
+	border-left: none;
+	border-right: none;
+  border-bottom: 1px solid #1d2452;
+  border-radius: 0;
+  outline: none;
+  transition: 0.4s;
+	background: none;
+}
+
+button.accordion.active {
+	color: #fff165;
+	border-bottom: 1px solid #ffac20;
+  transition: 0.4s;
+}
+
+div.panel {
+    padding: 0 15px;
+    max-height: 0;
+    overflow: hidden;
+    transition: 0.6s ease-in-out;
+    opacity: 0;
+}
+
+div.panel.show {
+    opacity: 1;
+    max-height: 500px; /* Whatever you like, as long as its more than the height of the content (on all screen sizes) */
+}
+
+
+/*------------------------------
+MOBILE NAV
+------------------------------*/
+
+.navigation-m {
+	position: absolute;
+	left: -9999px;
+	top: 9999px;
+}
+
+ul.nav-m {
+	display: none;
+}
+ul.nav-labels-m {
+	display: none;
+}
+
+/* The Overlay (background) */
+.overlay {
+    /* Height & width depends on how you want to reveal the overlay (see JS below) */    
+    height: 100%;
+    width: 0;
+    position: fixed; /* Stay in place */
+    z-index: 9999; /* Sit on top */
+    left: 0;
+    top: 0;
+    background-color: rgb(0,0,0); /* Black fallback color */
+    background-color: rgba(0,0,0, 1); /* Black w/opacity */
+    overflow-x: hidden; /* Disable horizontal scroll */
+    transition: 0.5s; /* 0.5 second transition effect to slide in or slide down the overlay (height or width, depending on reveal) */
+}
+
+/* Position the content inside the overlay */
+.overlay-content {
+    position: relative;
+    top: 0px;
+    width: 100%; /* 100% width */
+    text-align: center; /* Centered text/links */
+    margin-top: 30px; /* 30px top margin to avoid conflict with the close button on smaller screens */
+}
+
+/* The navigation links inside the overlay */
+.overlay a {
+	font-family: 'ITCAvantGardeGothW04-Bo 1122872', "Helvetica Neue", Arial;
+	font-size: 20px;
+	font-weight: normal;
+	line-height: 20px;
+	letter-spacing: 0px;
+	margin: 0 0 5px 0;
+	padding: 10px;
+	text-align: left;
+	text-transform: uppercase;
+    text-decoration: none;
+    color: #FFF;
+    display: block; /* Display block instead of inline */
+    transition: 0.3s; /* Transition effects on hover (color) */
+}
+
+/* When you mouse over the navigation links, change their color */
+.overlay a:hover, .overlay a:focus {
+    color: #f1f1f1;
+}
+/* Position the close button (top right corner) */
+.closebtn {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 30px !important; /* Override the font-size specified earlier (36px) for all navigation links */
+}
+
+/* When the height of the screen is less than 450 pixels, change the font-size of the links and position the close button again, so they don't overlap */
+@media screen and (max-height: 450px) {
+    .overlay a {font-size: 20px}
+    .closebtn {
+        font-size: 40px !important;
+        top: 15px;
+        right: 15px;
+    }
+}
+
+.spotifyplayer { width:100%; height:auto; padding-top:100px; text-align:center; overflow:hidden; }
+@media screen and (max-width: 740px), screen and (max-device-width: 740px) { .spotifyplayer { padding-top:50px; }}
+
+
+/*------------------------------
+TICKET BUTTONS
+------------------------------*/
+.ticket-buttons {
+	font-family: 'ITCAvantGardeGothW04-Bo 1122872', "Helvetica Neue", Arial;
+	text-align: center;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	margin-left: -10px;
+	margin-right: -10px;
+	min-height: 200px;
+}
+
+.ticket-button {
+	position: relative;
+	width: 195px;
+	float: left;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+.ticket-button-title {
+	width: auto;
+	min-height: 66px;
+	margin: 0 0;
+	padding: 15px 15px;
+	display: block;
+	text-align: left;
+	color: #FFF;
+	text-transform: uppercase;
+	font-size: 22px;
+	line-height: 22px;
+	background: #085f84;
+}
+	.accom-tt {
+		background: #752117;
+	}
+
+ticket-button-img {
+	width: 100%;
+	height: auto;
+	margin: 0 auto;
+	padding: 0 0;
+	display: block;
+}
+
+.ticket-button-desc {
+	width: auto;
+	min-height: 72px;
+	margin: 0 0;
+	padding: 15px 15px;
+	display: block;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	text-align: left;
+	color: #205455;
+	font-size: 14px;
+	line-height: auto;
+	background: #FFF;
+}
+
+.ticket-button-price {
+	width: auto;
+	margin: 0 0;
+	padding: 15px 15px;
+	display: block;
+	text-align: left;
+	text-transform: uppercase;
+	color: #085f84;
+	font-size: 20px;
+	line-height: auto;
+	background: #f6db4e;
+	transition: 50ms;
+}
+
+.ticket-button-price > .booking-fee {
+	font-size: 12px;
+}
+
+.null {
+	opacity: 0.5;
+}
+
+	
+
+	.accom-desc {
+		color: #b63424;
+		}
+
+.text-halfsize {
+	font-family: inherit;
+	color: inherit;
+	font-size: 50%;
+	line-height: 110%;
+	display: inline;
+}
+
+.ticket-button-cta {
+	width: auto;
+	margin: 0 0;
+	padding: 15px 15px;
+	display: block;
+	text-align: left;
+	color: #FFF;
+	text-transform: uppercase;
+	font-size: 15px;
+	line-height: 15px;
+	background: #1baea5;
+}
+	.accom-cta {
+		background: #b63424;
+		}
+
+.ticket-button-cta a {
+	text-decoration: underline;
+	color: #FFF !important;
+}
+
+.btn {
+	padding: 8px 24px;
+}
+
+.btn-primary {
+	font-family: 'ITCAvantGardeGothW04-Bo 1122872', "Helvetica Neue", Arial;
+	text-transform: uppercase;
+	font-size: 20px;
+	line-height: 21px;
+	border: 1px solid #1d2452;
+	color: #1d2452;
+	border-radius: 0;
+	background-color: transparent;
+	transition: 100ms;
+}
+
+.btn-full {
+	width: 100%;
+}
+
+.btn-primary:hover {
+	background: #1d2452;
+	color: #fff;
+	border: 1px solid #1d2452;
+}
+
+.null .ticket-button-price:hover {
+	background: #f6db4e;
+	color: #085f84;
+}
+
+#skyscanner-button > img {
+	height: 22px;
+	width: auto;
+	margin: -8px 0 0 3px;
+}
+
+#lmt-button > img {
+	display: block;
+	height: 22px;
+	width: auto;
+	margin: 0;
+}
+
+.sky-widget {
+	background-color: #a42356;
+	padding: 20px;
+}
+
+.top-tickets {
+	width: 290px;
+	height: auto;
+	margin: 0 auto;
+	padding: 10px;
+	text-align: center;
+	font-family: 'ITCAvantGardeGothW04-Bo 1122872', "Helvetica Neue", Arial;
+	text-transform: uppercase;
+	font-size: 20px;
+	line-height: 20px;
+	background: #FFF;
+	color: #e8432e;
+}
+.top-tickets a {
+	text-decoration: none;
+	color: #000 !important;
+}
+
+/*------------------------------
+SIGN-UP FORM
+------------------------------*/
+input {
+	display: inline-block;
+	width: 200px;
+	height: 30px;
+	margin-right: -3px;
+	padding: 10px 10px;
+	background: #FFF;
+	border: none;
+	border-radius: 0;
+	color: #000;
+	font-size: 15px;
+	line-height: 30px;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	text-align: left;
+}
+
+input.button {
+	display: inline-block;
+	width: auto;
+	height: 50px;
+	margin: 0 auto;
+	padding: 10px 10px;
+	background: #000;
+	color: #EEE;
+	border: none;
+	cursor: pointer;
+	font-size: 15px;
+	line-height: 30px;
+	font-family: 'ITCAvantGardeGothW04-Bo 1122872', "Helvetica Neue", Arial;
+	text-transform: uppercase;
+}
+
+input.button.sign {
+	background: #f6db4e;
+	color: #000;
+}
+
+.after-movie > a > .button {
+	background: #fbe864;
+	color: #000;
+	width: 301px;
+	font-family: 'ITCAvantGardeGothW04-Bo 1122872', "Helvetica Neue", Arial;
+	font-size: 15px;
+	line-height: 30px;
+	padding: 10px 15px;
+	border: 0;
+	cursor: pointer;
+	margin: 0 auto;
+	border-radius: 0;
+}
+
+.after-movie > .button > a {
+	color: #000;
+}
+
+
+/*------------------------------
+PROGRAMME MODAL
+------------------------------*/
+
+
+/* Modal Button */
+
+#myBtn {
+	padding: 0;
+	border-width: 0;
+	background-color: transparent;
+	cursor: zoom-in;
+}
+
+
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 6; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.7); /* Black w/ opacity */
+}
+
+/* Modal Content/Box */
+.modal-content {
+    margin: 0 auto; /* 15% from the top and centered */
+    padding: 20px;
+    border: 0;
+    width: 80%; /* Could be more or less, depending on screen size */
+    background-color: transparent;
+    box-shadow: none;
+}
+
+/* The Close Button */
+.close {
+    color: #fff;
+    float: right;
+    font-size: 48px;
+    font-weight: bold;
+    opacity: 1;
+}
+
+.close:hover,
+.close:focus {
+    color: #eed44c;
+    text-decoration: none;
+    cursor: pointer;
+    opacity: 1;
+}
+
+
+/*------------------------------
+BOOTSTRAP
+------------------------------*/
+
+.container-fluid {
+	margin-left: 0;
+	margin-right: 0;
+	background-color: #1d2452;
+}
+
+.stage {
+	padding-left: 0;
+	padding-right: 0;
+	position: relative;
+}
+
+.stage > .caption {
+	position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+}
+
+.caption > h2 {
+	font-size: 36px;
+	line-height: 36px;
+	text-align: center;
+}
+
+.caption a {
+	color: #e84242;
+    border-bottom: 1px #e84242 solid;
+}
+
+.stage > img {
+	opacity: 0.8;
+}
+
+.stage-desc {
+	display: none;
+	margin: 0;
+	padding: 100px 60px;
+	text-align: center;
+	font-size: 16px;
+	line-height: 24px;
+}
+
+.panel {
+	margin-bottom: 0;
+	background-color: transparent;
+	border: none;
+	font-size: 14px;
+
+}
+
+.insta-gallery {
+	margin-top: 0;
+}
+
+.insta-gallery > .row > div {
+	padding: 0;
+}
+
+.stage.pink {
+	background-color: #fc5567;
+}
+
+.stage.green {
+	background-color: #0a8ca3;
+}
